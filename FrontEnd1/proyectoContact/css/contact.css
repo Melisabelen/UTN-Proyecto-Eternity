@@ -1,0 +1,186 @@
+@import url(normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+:root{
+  --color-primary: #171d39;
+  --color-secodary: #124868;
+  --color-terciary: #20b5d9;
+  --color-quaternary: #e2e2e2;
+  --color-quinary: #f1f4f6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Serif", serif;
+}
+
+
+
+/* HEADER */
+
+    /* HEADER 1º */
+header{
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 0px 20px -5px black;
+  z-index: 10;
+}
+
+.barra1{
+  background-color: var(--color-primary);
+  position: relative;
+  justify-content: space-between;
+  height: 30px;
+}
+
+.imglenguage{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.imgbarra1{
+  height: 30px;
+  width: 20px;
+  margin-right: 20px
+}
+
+    /* HEADER 2º */
+
+header nav{
+  background-image: url(../img/backgroundRobot1.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-between;
+  position: flex;
+  font-size: 15px;
+}
+
+nav .nav__link{
+  color: var(--color-quaternary);
+}
+
+div .nav__logo{
+  height: 90px;
+  border-radius: 50%;
+  margin-left: 25%;
+}
+
+nav ul{
+  display: inline-flex;
+  gap: 20px;
+  padding-right: 1%;
+  margin-top: 30px;
+  margin-right: 3px;
+}
+
+nav ul li .bi-globe-central-south-asia{
+  margin-right: 2px;
+  color: #a169d2de;
+}
+
+
+
+/* MAIN FORMULARIO*/
+
+    /* FORMULARIO 1 */
+
+main{
+  display: flex;
+}
+
+.datos{
+  background-image: url(../img/backgroundContacto.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--color-quinary);
+  font-size: 16px;
+  font-weight: 400;
+  width: 80%;
+  height: 700px;
+  margin: 50px auto; 
+  display: flex;
+  box-shadow: 0px 4px 20px -5px black;
+  border-radius: 20px;
+  justify-content:space-around  ;
+}
+
+section article{
+  width: 400px;
+  display: inline-block;
+  margin: 20px;
+}
+
+article h4{
+  margin-bottom: 20px;
+}
+
+.buttons1{
+  display: flex;
+  display: inline-block;
+  width: 100%;
+  justify-content: center;
+  top: 95%;
+  border: 0;
+  margin-top: 30px;
+
+}
+
+.buttons1 button{
+  background-color: #00669f;
+  color: var(--color-quinary);
+  padding: 10px 20px ;
+  border: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  box-shadow: 0 0 25px rgb(150, 203, 247);
+  margin-right: 60px;
+}
+
+button:hover{
+  box-shadow: 0 0 5px rgb(59, 160, 243), 0 0 10px rgb(59, 160, 243),
+      0 0 20px rgb(59, 160, 243), 0 0 50px rgb(59, 160, 243);
+}
+
+label, select, input{
+  display: block;
+  padding: 1px;
+  margin-top: 2px;
+}
+
+textarea {
+  width: 100%;
+}
+
+
+
+/*FOOTER */
+
+footer{
+  background-image: url(../img/backgroundFooter.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55px;
+}
+
+footer div h3{
+  color: var(--color-quaternary);
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 20px;
+  display: inline-block;
+  margin-left:25px;
+  margin-right: 10px;
+}
+
+footer div .bi{
+  color: white;
+  font-size: 17px;
+  margin: 2px;
+}

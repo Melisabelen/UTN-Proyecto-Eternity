@@ -204,9 +204,6 @@ article button {
   border: 0;
   font-size: 13px;
   margin-left: 32%;
-  
-
-  /*COPIADO*/
   text-transform: uppercase;
   transition: 0.5s;
   transition-property: box-shadow;
@@ -214,7 +211,6 @@ article button {
   box-shadow: 0 0 25px rgb(150, 203, 247);
 }
 
-/*COPIADO*/
 article button:hover {
   box-shadow: 0 0 5px rgb(59, 160, 243), 0 0 10px rgb(59, 160, 243),
     0 0 20px rgb(59, 160, 243), 0 0 50px rgb(59, 160, 243);
